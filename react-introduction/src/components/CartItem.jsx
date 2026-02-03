@@ -8,7 +8,6 @@ function CartItem({name, price, id, onRemove}) {
                 <p>${price}</p>
             </div>
 
-
             <button className="remove-btn" onClick={() => onRemove(id)} >
                 Remove
             </button>
