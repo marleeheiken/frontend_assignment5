@@ -57,14 +57,14 @@ function App() {
 
   // Initialize cartItems from localStorage
   const [cartItems, setCartItems] = useState(() => {
-    const savedCart = localStorage.getItem('componentcorner-cart');
+    const savedCart = localStorage.getItem('cart');
     return savedCart ? JSON.parse(savedCart) : [];
   });
 
   // Save to localStorage whenever cartItems changes
   useEffect(() => {
     try {
-      localStorage.setItem('componentcorner-cart', JSON.stringify(cartItems));
+      localStorage.setItem('cart', JSON.stringify(cartItems));
     } catch (error) {
       console.warn('Could not save cart to localStorage:', error);
     }
