@@ -1,0 +1,30 @@
+/* Code generated with assistance from ChatGPT */
+
+.app-footer {
+    background-color: rgb(173, 173, 246);
+  
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;   
+    padding: 20px 40px;
+  }
+  
+  .footer-title,
+  .footer-info,
+  .foot-nav-menu {
+    flex: 0 0 33%;  
+    padding: 0 10px; 
+  }
+  
+  .foot-nav-menu {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 20px;
+  }
+  
+  .foot-nav-link {
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+  }
+  

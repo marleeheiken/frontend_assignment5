@@ -1,0 +1,31 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px;
+
+}
+
+.cart-item-info {
+    display: flex;
+}
+
+.cart-item-info p {
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.remove-btn {
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    padding: 5px 15px 5px 15px; 
+    align-items: center;
+    font-weight: bold;
+
+}
